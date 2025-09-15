@@ -13,7 +13,7 @@ resource "aws_instance" "dev" {
   vpc_security_group_ids = [aws_security_group.dev_sg.id]
 
   tags = {
-    Name = "webhook"
+    Name = "webhooks"
   }
 }
 
